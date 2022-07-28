@@ -20,19 +20,6 @@ body {
   font-size: 0.9375rem;
   position: relative;
   background-color: $VeryLightGray;
-  &::after {
-    /*     background-image: url(./design/desktop-design.jpg);
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-    pointer-events: none; */
-  }
 }
 .container {
   margin: auto;
@@ -44,10 +31,11 @@ body {
 }
 .feature__text {
   text-align: center;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  margin-top: 90px;
 }
 .feature__over-txt {
   margin-top: 0.3125rem;

@@ -17,7 +17,7 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   position: relative;
   background-color: $VeryLightGray;
   &::after {
@@ -50,10 +50,10 @@ body {
   flex-wrap: wrap;
 }
 .feature__over-txt {
-  margin-top: 5px;
+  margin-top: 0.3125rem;
   font-size: 2.44em;
   font-weight: 200;
-  line-height: 44px;
+  line-height: 2.75rem;
   color: $VeryDarkBlue;
 }
 .feature__title {
@@ -61,70 +61,70 @@ body {
   width: 100%;
   color: $VeryDarkBlue;
 
-  margin-bottom: 17px;
+  margin-bottom: 1.0625rem;
 }
 .feature__p {
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
   font-size: 1.01em;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: $GrayishBlue;
 }
 .feature__cards {
   justify-content: center;
   display: grid;
-  grid-column-gap: 30px;
-  grid-template-columns: 350px 350px 350px;
+  grid-column-gap: 1.875rem;
+  grid-template-columns: 21.875rem 21.875rem 21.875rem;
   align-items: center;
 }
 .card {
-  height: 250px;
+  height: 15.625rem;
   width: 100%;
   background-color: white;
-  border-radius: 7px;
-  padding: 28px 31px;
+  border-radius: 0.4375rem;
+  padding: 1.75rem 1.9375rem;
   position: relative;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.4375rem 1.8125rem 0rem;
 }
 .card__border--red {
-  border-top: 4px solid $Red;
+  border-top: 0.25rem solid $Red;
 }
 .card__border--orange {
-  border-top: 4px solid $Orange;
+  border-top: 0.25rem solid $Orange;
 }
 .card__border--blue {
-  border-top: 4px solid $Blue;
+  border-top: 0.25rem solid $Blue;
 }
 .card__border--cyan {
-  border-top: 4px solid $Cyan;
+  border-top: 0.25rem solid $Cyan;
 }
 .card__title {
   font-size: 1.34em;
-  margin-bottom: 7px;
+  margin-bottom: 0.4375rem;
   color: $VeryDarkBlue;
 }
 .card__content-txt {
   font-size: 0.88em;
-  line-height: 23px;
+  line-height: 1.4375rem;
   color: $GrayishBlue;
   font-weight: 400;
 }
 .cards__center {
   .card {
     &:first-child {
-      margin-bottom: 30px;
+      margin-bottom: 1.875rem;
     }
   }
 }
 .card__img {
   position: absolute;
-  bottom: 33px;
-  right: 31px;
+  bottom: 2.0625rem;
+  right: 1.9375rem;
 }
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
   position: absolute;
-  bottom: 15px;
+  bottom: 0.9375rem;
   transform: translateX(-50%);
   left: 50%;
 }
@@ -133,30 +133,30 @@ body {
   font-weight: 600;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64rem) {
   .feature__cards {
-    grid-template-columns: repeat(3, 270px);
+    grid-template-columns: repeat(3, 16.875rem);
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 50rem) {
   .card {
-    height: 270px;
+    height: 16.875rem;
   }
   .feature__cards {
-    grid-template-columns: repeat(3, 220px);
+    grid-template-columns: repeat(3, 13.75rem);
   }
   .feature {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
   html,
   body {
     height: auto;
   }
   .container {
-    padding: 0 55px;
+    padding: 0 3.4375rem;
   }
   .feature__over-txt,
   .feature__title {
@@ -168,13 +168,13 @@ body {
     }
   }
   .feature {
-    padding: 40px 0;
+    padding: 2.5rem 0;
   }
   .feature__cards {
     grid-template-columns: 1fr;
   }
   .card {
-    height: 230px;
-    margin-bottom: 30px;
+    height: 14.375rem;
+    margin-bottom: 1.875rem;
   }
 }
